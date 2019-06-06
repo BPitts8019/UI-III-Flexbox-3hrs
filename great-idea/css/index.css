@@ -69,11 +69,6 @@ h1, h2, h3, h4, h5 {
 	width: 880px;
 }
 
-h1 {
-	font-size: 71px;
-	font-weight: bolder;
-}
-
 h2 {
 	margin-bottom: 17px;
 }
@@ -160,6 +155,30 @@ section img {
 	margin-bottom: 36px;
 }
 
+address {
+	border-top: 1px solid black;
+}
+
+address h2 {
+	margin-top: 37px;
+}
+
+address div {
+	line-height: 3.73;
+}
+
+footer {
+	font-size: 14px;
+	margin: 55px 0px;
+	text-align: center;
+}
+
+/* Index page specific styles */
+.index-title {
+	font-size: 71px;
+	font-weight: bolder;
+}
+
 .main-info {
 	margin-top: 38px;
 	margin-bottom: 36px;
@@ -179,20 +198,3 @@ section img {
 	width: 16px;
 }
 
-address {
-	border-top: 1px solid black;
-}
-
-address h2 {
-	margin-top: 37px;
-}
-
-address div {
-	line-height: 3.73;
-}
-
-footer {
-	font-size: 14px;
-	margin: 55px 0px;
-	text-align: center;
-}
